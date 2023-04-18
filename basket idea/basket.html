@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <a href="index.html">SHOES</a>
+        </div>
+        <div class="right">
+            <a href="basket.html"> <i class="fa-solid fa-basket-shopping"><span id="count">0</span></i>
+            </a>
+        </div>
+    </header>
+
+
+    <div class="alert ">
+        <img src="data:image/png;base64,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"
+            alt="">
+        <h1>
+            Add the product you like by clicking the button
+        </h1>
+
+
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Brand</th>
+                <th scope="col">Price</th>
+                <th scope="col">Count</th>
+                <th scope="col">Total Price</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <script src="/js/basket.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
